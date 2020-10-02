@@ -62,7 +62,10 @@
 }
 .innerGridWrapper {
     grid-area: se;
-    background: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1px;
 }
 .aside {
     grid-area: as;
@@ -71,4 +74,8 @@
 .footer {
     grid-area: fo;
     background: purple;
+}
+
+.innerdiv {
+    background-color: green;
 }
